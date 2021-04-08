@@ -1,1 +1,4 @@
 # Exercise
+* {
+        font-family : Arial;
+    }
