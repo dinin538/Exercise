@@ -7,6 +7,12 @@ p {
   text-align: center;
   color: red;
 } 
+.tajuk h1 {
+    /* arahan CSS */
+}
+table .merah {
+    color: red;
+}
 </style>
 </head>
 <body>
