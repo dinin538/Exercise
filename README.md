@@ -1,25 +1,25 @@
 # Exercise
-<!DOCTYPE html>
 <html>
 <head>
 <style>
-p {
-  text-align: center;
-  color: red;
-} 
-.tajuk h1 {
-    /* arahan CSS */
-}
-table .merah {
-    color: red;
+div p {
+  background-color: yellow;
 }
 </style>
 </head>
 <body>
 
-<p>Every paragraph will be affected by the style.</p>
-<p id="para1">Me too!</p>
-<p>And me!</p>
+<h2>Descendant Selector</h2>
+<p>The descendant selector matches all elements that are descendants of a specified element.</p>
+
+<div>
+  <p>Paragraph 1 in the div.</p>
+  <p>Paragraph 2 in the div.</p>
+  <section><p>Paragraph 3 in the div.</p></section>
+</div>
+
+<p>Paragraph 4. Not in a div.</p>
+<p>Paragraph 5. Not in a div.</p>
 
 </body>
 </html>
