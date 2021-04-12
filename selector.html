@@ -1,24 +1,29 @@
+<!DOCTYPE html>
 <html>
 <head>
 <style>
-div p {
+
+div ~ h2 {
   background-color: yellow;
 }
+div > h1  {
+  background-color: rgb(139, 116, 204);
+}
+div + h2 {
+  background-color: rgb(10, 136, 209);
+}
+
 </style>
 </head>
 <body>
-
-<h2>Descendant Selector</h2>
-<p>The descendant selector matches all elements that are descendants of a specified element.</p>
-
 <div>
-  <p>Paragraph 1 in the div.</p>
-  <p>Paragraph 2 in the div.</p>
-  <section><p>Paragraph 3 in the div.</p></section>
+  <h1>tajuk</h1>
 </div>
-
-<p>Paragraph 4. Not in a div.</p>
-<p>Paragraph 5. Not in a div.</p>
+<h2>subtajuk</h2>
+<h2>tajuklagi</h2>
+<div>
+  
+  
 
 </body>
 </html>
